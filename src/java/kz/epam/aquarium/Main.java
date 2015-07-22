@@ -38,7 +38,7 @@ public class Main {
                     aquarium.addItemToAquarium(new Fish(getName(Fish.class.getSimpleName()), getPrice(Fish.class.getSimpleName())));
                 }
                 System.out.println(aquarium.toString());
-                System.out.println("Type QUIT if want quit or some else if want add someone more");
+                System.out.println("Type QUIT to quit or something else if you want to continue");
             } while (!"quit".equals(sc.next().toLowerCase()));
         } finally {
             sc.close();
